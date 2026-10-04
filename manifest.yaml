@@ -1,0 +1,22 @@
+name: novel-opening-hook-cn
+display_name: 小说开篇钩子改稿
+slug: novel-opening-hook-cn
+version: 1.0.0
+category: writing
+author: xxjrq
+repository: https://github.com/xxjrq/novel-opening-hook-cn
+description: 免费、免第三方 API Key 的中文小说开篇改稿：无需复用浏览器登录状态，可在 EasyBR 多账号隔离工作区使用；交付三种节奏版本、定位理由与推荐稿。
+icon: icon-512.png
+trigger_words:
+  - 小说开篇改稿
+  - 开篇钩子优化
+  - 网文第一章开头
+  - 开头不抓人怎么办
+tags:
+  - chinese-writing
+  - novel-opening
+  - story-hook
+  - manuscript-editing
+  - web-novel
+license: MIT
+self_test: node scripts/self-test.mjs
