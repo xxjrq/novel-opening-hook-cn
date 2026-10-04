@@ -1,6 +1,8 @@
 # 小说开篇钩子改稿
 
-免费、免第三方 API Key：把你的中文小说开篇变成三种可直接复制的节奏版本，同时保留人物设定和核心事件。它不需要登录网页，也不会读取、复用或发送浏览器登录状态；可在 Easy WebBridge 的 EasyBR 多账号隔离工作区中使用而不触及任一账号。
+![小说开篇钩子改稿](assets/promo-1600x900.png)
+
+把中文小说开篇改成快节奏、悬念节奏、沉浸节奏三版，保留人物设定与核心事件。每版附原文定位和修改理由，最后推荐最适合读者的一版。直接将原文交给支持 Skill 的助手即可，无需浏览器或额外 API Key。
 
 ## 立即使用
 
@@ -28,12 +30,14 @@
 node scripts/self-test.mjs
 ```
 
-## 来源与许可证
+## 许可证
 
-本 Skill 的指令、样例、脚本和图标均为原创；没有复制外部仓库的源码或文档。仅核对公开业务用途与许可证：
+本 Skill 提供原创开篇改稿指令与示例，采用 [MIT License](LICENSE)。
 
-- [marketingskills](https://github.com/coreyhaines31/marketingskills)（MIT）
-- [Anthropic Skills](https://github.com/anthropics/skills)（仓库页未标注可用许可证，未采用其内容）
-- [Easy WebBridge](https://github.com/xxjrq/easy-webbridge)（MIT；未作为本 Skill 运行依赖）
+## 安装
 
-本仓库采用 [MIT License](LICENSE)。
+```bash
+npx skills add xxjrq/novel-opening-hook-cn
+```
+
+也可以把本仓库目录复制到 Agent 的 Skills 目录，再用 `$novel-opening-hook-cn` 加上你的输入调用。

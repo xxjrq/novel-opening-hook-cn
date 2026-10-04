@@ -1,6 +1,8 @@
 # Chinese Novel Opening Hook Rewrite
 
-Free and no third-party API key: rewrite a Chinese novel opening into three copy-ready pacing options while preserving characters and core events. This skill is local and does not access browser sessions or login state. It can run inside an Easy WebBridge EasyBR account-isolated workspace without touching any account.
+![Chinese novel opening hook rewrite](assets/promo-1600x900.png)
+
+Rewrite a Chinese novel opening into fast-paced, suspense-led, and immersive versions while preserving characters and core events. Each version includes edit rationales tied to the original text, followed by one recommendation. Use it with a skill-capable assistant; no browser or additional API key is required.
 
 ## Quick start
 
@@ -12,6 +14,14 @@ node scripts/self-test.mjs
 
 It rewrites only the supplied opening. It does not write a whole novel, create an outline, or run a six-dimension review. Licensed under [MIT](LICENSE).
 
-## Sources
+## License
 
-The implementation, examples, and icon are original. Public repositories were checked only for business context and licensing: [marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT), [Anthropic Skills](https://github.com/anthropics/skills) (no usable license shown on the repository page; no content used), and [Easy WebBridge](https://github.com/xxjrq/easy-webbridge) (MIT; not a runtime dependency).
+Original editing instructions and examples, licensed under [MIT](LICENSE).
+
+## Install
+
+```bash
+npx skills add xxjrq/novel-opening-hook-cn
+```
+
+Alternatively, copy this repository folder into your Agent’s skill directory, then invoke `$novel-opening-hook-cn` with your input.
